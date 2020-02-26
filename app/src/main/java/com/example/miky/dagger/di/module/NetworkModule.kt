@@ -21,7 +21,6 @@ class NetworkModule {
             .build()
             .create(JokeRetrofitService::class.java)
     }
-
 }
 
 interface JokeRetrofitService {
